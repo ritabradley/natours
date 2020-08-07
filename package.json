@@ -1,0 +1,14 @@
+{
+    "name": "natours",
+    "version": "1.0.0",
+    "description": "Nature tours",
+    "main": "index.js",
+    "author": "Rita Bradley",
+    "license": "MIT",
+    "scripts": {
+        "compile:sass": "node-sass css/sass/main.scss css/style.css"
+    },
+    "devDependencies": {
+        "node-sass": "^4.14.1"
+    }
+}
