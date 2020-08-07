@@ -2,6 +2,9 @@ $primary-color: #55c57a;
 $primary-color-dark: #28b485;
 $primary-color-light: #7ed56f;
 
+$dark-gray: #777;
+$white: #fff;
+
 *,
 *::before,
 *::after {
@@ -19,7 +22,7 @@ body {
     font-weight: 400;
     line-height: 1.7;
     font-size: 1.6rem;
-    color: #777;
+    color: $dark-gray;
     padding: 3rem;
     box-sizing: border-box;
 }
@@ -52,7 +55,7 @@ body {
     text-align: center;
 }
 .heading__primary {
-    color: #fff;
+    color: $white;
     text-transform: uppercase;
     backface-visibility: hidden;
     margin-bottom: 6rem;
@@ -112,11 +115,11 @@ body {
     opacity: 0;
 }
 .btn--white {
-    background: #fff;
-    color: #777;
+    background: $white;
+    color: $dark-gray;
 }
 .btn--white::after {
-    background: #fff;
+    background: $white;
 }
 @keyframes moveInLeft {
     0% {

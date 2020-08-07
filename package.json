@@ -6,7 +6,7 @@
     "author": "Rita Bradley",
     "license": "MIT",
     "scripts": {
-        "compile:sass": "node-sass css/sass/main.scss css/style.css"
+        "compile:sass": "node-sass css/sass/main.scss css/style.css -w"
     },
     "devDependencies": {
         "node-sass": "^4.14.1"
