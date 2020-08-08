@@ -10,3 +10,11 @@
     box-shadow: 0 1rem 2rem rgba($black, 0.15);
     transform: translateY($val);
 }
+
+@mixin text-gradient {
+    display: inline-block;
+    background-image: linear-gradient(to right, $primary-color-light, $primary-color-dark);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
