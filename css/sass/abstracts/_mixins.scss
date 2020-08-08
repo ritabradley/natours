@@ -1,0 +1,12 @@
+@mixin clearfix {
+    &::after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
+
+@mixin box-shadow($val: -2px) {
+    box-shadow: 0 1rem 2rem rgba($black, 0.15);
+    transform: translateY($val);
+}

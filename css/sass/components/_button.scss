@@ -39,6 +39,25 @@
             opacity: 0;
         }
     }
+    &--text {
+        &:link,
+        &:visited {
+            color: $primary-color;
+            display: inline-block;
+            text-decoration: none;
+            border-bottom: 1px solid $primary-color;
+            padding: 0.3rem;
+            transition: all 0.2s;
+        }
+        &:hover {
+            background-color: $primary-color;
+            color: $white;
+            @include box-shadow;
+        }
+        &:active {
+            @include box-shadow(0);
+        }
+    }
 
     &--white {
         background: $white;

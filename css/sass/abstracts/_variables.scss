@@ -2,6 +2,18 @@ $primary-color: #55c57a;
 $primary-color-dark: #28b485;
 $primary-color-light: #7ed56f;
 
+$light-gray-1: #f7f7f7;
+
 $dark-gray: #777;
 $black: #000;
 $white: #fff;
+
+$col-bg-color: lighten($primary-color, 10%);
+
+$default-font-size: 1.6rem;
+
+// Grid
+$grid-width: 114rem;
+$col-padding: 2rem;
+$horizontal-gutter: 6rem;
+$vertical-gutter: 8rem;
