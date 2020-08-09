@@ -41,7 +41,7 @@
         z-index: -1;
         transition: all 0.4s;
     }
-    &--text {
+    &-text {
         &:link,
         &:visited {
             color: $primary-color;
