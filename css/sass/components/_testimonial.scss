@@ -3,7 +3,7 @@
     margin: 0 auto 4rem auto;
     box-shadow: 0 3rem 6rem rgba($black, 0.1);
     background-color: rgba($white, 0.5);
-    border-radius: 0.5rem;
+    border-radius: $br;
     padding: 6rem;
     padding-left: 9rem;
     transform: skewX(-12deg);

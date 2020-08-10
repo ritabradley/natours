@@ -7,6 +7,7 @@
         padding: 1rem 2rem;
         display: inline-block;
         border-radius: 100rem;
+        border: none;
         transition: all 0.2s;
         position: relative;
     }
@@ -63,7 +64,7 @@
 
     &--white {
         background: $white;
-        color: $dark-gray;
+        color: $dark-gray-1;
 
         &::after {
             background: $white;
